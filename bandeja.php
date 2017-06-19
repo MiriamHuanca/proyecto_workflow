@@ -9,7 +9,7 @@ $usuario=$_SESSION["usuario"];
 $clave=$_SESSION["clave"];
 
 $link = mysql_connect("localhost","root","");
-mysql_select_db("aworkflow");
+mysql_select_db("academico");
 $sql="select * from usuario where usuario='".$usuario."' and clave='".$clave."'";
 $data=mysql_query($sql,$link);
 $row=mysql_fetch_row($data);
@@ -44,3 +44,16 @@ else
 }
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
