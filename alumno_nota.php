@@ -48,19 +48,7 @@
 </div>
 <!--
 
-<div class="container">
-  <h2>Notas Acumuladas</h2>
-  <p>Universidad Mayor de San Andres</p>            
-  <table class="table table-hover">
-        <thead>
-            <tr>
-                <th>Materia1</th>
-                <th>Sigla1</th>
-                <th>Nota1</th>
-            </tr>
-        </thead>
-
-        <tbody>   
+ 
     <?php
                 $con=mysql_connect("localhost","root","");
                 mysql_select_db("academico",$con);
@@ -78,9 +66,7 @@
                   echo "</tr>";
                 }
         ?>                
-        </tbody>
-    </table>
-</div>
+   
 -->
 </body>
 </html>

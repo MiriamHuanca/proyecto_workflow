@@ -9,54 +9,56 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-    <style type="text/css">
-		.jumbotron {
-			background:  #2471a3;
-			color: #fff;
-			padding: 20px 0;
-		}
-    </style>
+<style type="text/css">
+  .jumbotron {
+   background:  #2471a3;
+   color: #fff;
+   padding: 20px 0;
+ }
+</style>
 
 
 <body>
 
 
-    <section class="jumbotron">
+  <section class="jumbotron">
+    <div class="container">
+      <h1>Proceso Academico de Inscripción de las Facultades</h1>
+    </div>
+  </section>
+
+
+
+
+
+  <header>  
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">       
       <div class="container">
-        <h1>Proceso Academico de Inscripción de las Facultades</h1>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.umsa.bo/web/guest/">UMSA</a>
+        </div>
+
       </div>
-    </section>
+    </nav>
+  </header>
+  <form method="POST" action="motor.php">
 
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail" style="margin-left:105px;">
+        <div class="caption">
+          <div class="radio">
+          <label><input type="radio" name="tipoIngreso[]">Examen de dispensación</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="tipoIngreso[]">Curso Prefacultativo</label>
+          </div>
 
-
-
-
-<header>  
- 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">       
-        <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="http://www.umsa.bo/web/guest/">UMSA</a>
-            </div>
+          <button type="submit" class="btn btn-info">CONTINUAR</button>
 
         </div>
-    </nav>
-</header>
-
-            <div class="col-sm-6 col-md-4">
-              <div class="thumbnail" style="margin-left:105px;">
-                <div class="caption">
-                    <div class="radio">
-						<label><input type="radio" name="optradio">Examen de dispensación</label>
-					</div>
-					<div class="radio">
-					  	<label><input type="radio" name="optradio">Curso Prefacultativo</label>
-					</div>
-					
-					<button type="button" class="btn btn-info">CONTINUAR</button>
-
-                </div>
-              </div>
-            </div>
+      </div>
+    </div>
+  </form>
 
 
 
