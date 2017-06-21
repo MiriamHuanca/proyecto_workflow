@@ -36,7 +36,7 @@
     <div class="form-group">
         <label class="control-label col-sm-2" for="exampleInputEmail2">Sexo:</label>
         <div class="col-sm-10">
-        <select name="sexo" id="">
+      <select name="sexo" id="" class="form-control">
           <option value="F">Femenino</option>
           <option value="M">Masculino</option>
         </select>
@@ -69,7 +69,7 @@
     <div class="form-group">
         <label class="control-label col-sm-2" >Paralelo:</label>
       <div class="col-sm-10">          
-        <select name="par" id="">
+        <select name="par" id="" class="form-control">
           <option value="a">A</option>
           <option value="b">B</option>
           <option value="c">C</option>
@@ -79,7 +79,7 @@
 
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Registrar</button>
+        <button type="submit" class="btn btn-success">Registrar</button>
       </div>
     </div>
 

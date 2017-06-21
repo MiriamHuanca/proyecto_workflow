@@ -9,15 +9,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<section class="jumbotron">
+    <div class="container">
+      <h1>Proceso Academico de Inscripción de las Facultades</h1>
+    </div>
+  </section>
+  <header>  
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">       
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.umsa.bo/web/guest/">UMSA</a>
+        </div>
+      </div>
+    </nav>
+  </header>
 <div class="container">
   <h2>Formulario Registro</h2>
   </br>
   <form class="form-horizontal" action="/action_page.php">
    <div class="form-group">
-        <label class="control-label col-sm-2" for="exampleInputName2">Cédula de Identidad</label>
+        <label class="control-label col-sm-2" for="exampleInputName2">Cod</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" name="ci" id="ci"  required="required" placeholder="10076284 L.P.">
+          <input type="text" class="form-control" name="ci" id="ci"  required="required" placeholder="">
         </div>
     </div>
     <div class="form-group">
@@ -36,7 +49,7 @@
     <div class="form-group">
         <label class="control-label col-sm-2" for="exampleInputEmail2">Sexo:</label>
         <div class="col-sm-10">
-        <select name="sexo" id="">
+        <select name="sexo" id="" class="form-control">
           <option value="F">Femenino</option>
           <option value="M">Masculino</option>
         </select>
@@ -68,7 +81,7 @@
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Registrar</button>
+        <button type="submit" class="btn btn-success">Registrar</button>
       </div>
     </div>
 
